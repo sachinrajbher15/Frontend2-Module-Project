@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color:#232b2b;
+    color: white;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+.form-labels,
+.form-inputs {
+    display: flex;         
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+label {
+    margin-bottom: 0;
+    width: 30%;
+    text-align: left;
+}
+
+input {
+    width: 30%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+#addEmployeeBtn {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#addEmployeeBtn:hover {
+    background-color: #218838;
+}
+
+#message {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
+table {
+    width: 60%;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.delete-btn {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+}
+
+.delete-btn:hover {
+    background-color: darkred;
+}
